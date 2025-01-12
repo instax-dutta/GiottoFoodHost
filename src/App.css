@@ -1,0 +1,23 @@
+.navItems li{
+    position: relative;
+}
+.navItems li::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -2px;
+    background: linear-gradient(90deg,transparent,gray,transparent );
+    visibility: hidden;  
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.navItems li:hover::before{
+    visibility:visible;
+    width: 100%;
+}
+
+.shadow-text-lg{
+    text-shadow: 4px 4px 8px pink;
+}
