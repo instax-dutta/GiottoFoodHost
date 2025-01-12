@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { CartProvider } from "./context/cartContext"
 import Home from "./pages/Home"
 import GiottoFoodUk from "./pages/GiottoFoodUk"
 import About from "./pages/About"
 import Products from "./pages/Products"
 import Contact from "./pages/Contact"
+import { CartProvider } from "./context/cartContext"
 
 
 function App() {

@@ -1,6 +1,6 @@
 import { Minus, Plus, X } from 'lucide-react';
-import { useCart } from '../context/CartContext';
 import CheckoutButton from './CheckoutButton';
+import { useCart } from '@/context/cartContext';
 
 function Cart() {
   const { state, dispatch } = useCart();
