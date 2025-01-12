@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base:"/GiottoFoodHost/",
+  // base:"/GiottoFoodHost/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
