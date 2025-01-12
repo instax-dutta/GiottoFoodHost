@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
     <Navbar isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen}/>
-    {isCartOpen && <CartModal onClose={() => setIsCartOpen(false)} />}
+    {/* {isCartOpen && <CartModal onClose={() => setIsCartOpen(false)} />} */}
     <CarouselDemo/>
     <Container/>
     <Collections/>
